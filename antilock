@@ -43,7 +43,7 @@ uis.InputBegan:Connect(
                 game.StarterGui:SetCore("SendNotification", {
                     Title = "Anti Lock ";
                     Text = "ON - on75hz";
-                    Icon = "rbxassetid://893233817";
+                    Icon = "rbxassetid://8932043908";
                     Duration = 5;
                     })
                 elseif a.KeyCode == getgenv().KeyBind and getgenv().Desync == true then
@@ -51,7 +51,7 @@ uis.InputBegan:Connect(
                 game.StarterGui:SetCore("SendNotification", {
                     Title = "Anti Lock";
                     Text = "TURNED OFF - on75hz ";
-                    Icon = "rbxassetid://893233817";
+                    Icon = "rbxassetid://8932043908";
                     Duration = 5;
                     })
             end
