@@ -41,16 +41,16 @@ uis.InputBegan:Connect(
             if a.KeyCode == getgenv().KeyBind and getgenv().Desync == false then
                 getgenv().Desync = true
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "Dom Made This";
-                    Text = "ON";
+                    Title = "Anti Lock ";
+                    Text = "ON - on75hz";
                     Icon = "rbxassetid://893233817";
                     Duration = 5;
                     })
                 elseif a.KeyCode == getgenv().KeyBind and getgenv().Desync == true then
                 getgenv().Desync = false
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "Dom Made This";
-                    Text = "TURNED OFF";
+                    Title = "Anti Lock";
+                    Text = "TURNED OFF - on75hz ";
                     Icon = "rbxassetid://893233817";
                     Duration = 5;
                     })
